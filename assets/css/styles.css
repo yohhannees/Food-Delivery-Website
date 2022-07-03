@@ -611,12 +611,6 @@ body.dark-theme {
 }
 .github
 {
+  color:var(--first-color-alt)  ;
   text-decoration: none;
-   color:var(--first-color-alt)  ;
 }
-.github:hover
-{
- 
-  font-size: 20px;
-}
-
