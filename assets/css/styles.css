@@ -609,3 +609,14 @@ body.dark-theme {
     right: 2rem;
   }
 }
+.github
+{
+  text-decoration: none;
+   color:var(--first-color-alt)  ;
+}
+.github:hover
+{
+ 
+  font-size: 20px;
+}
+
