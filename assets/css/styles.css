@@ -195,6 +195,7 @@ body.dark-theme {
   row-gap: 1.5rem;
 }
 
+
 .nav__link, .nav__logo, .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -258,7 +259,9 @@ body.dark-theme {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color:var(--first-color-alt) ; ;
+  font-size: 20px;
+
 }
 
 .button__header {
@@ -305,6 +308,7 @@ body.dark-theme {
   text-align: center;
 }
 
+
 /*=============== SERVICES ===============*/
 .services__container {
   padding-top: 1rem;
@@ -320,6 +324,12 @@ body.dark-theme {
   text-align: center;
 }
 
+.services__data:hover
+{
+  background-color: var(--first-color-alt) ;
+  color: black;
+  font-weight:500;
+}
 .services__img {
   width: 135px;
   justify-self: center;
